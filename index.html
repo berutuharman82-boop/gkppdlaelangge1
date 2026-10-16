@@ -1257,7 +1257,7 @@
             if (passInput && passInput.value === 'admin123') {
                 isAdminLoggedIn = true; localStorage.setItem('gkppd_admin_logged', 'true');
                 closeAdminModal(); showToast('Login Admin Berhasil! Semua fitur terbuka.'); renderAll();
-            } else { showToast('Password salah! Gunakan: admin123'); }
+            } else { showToast('Password salah! ); }
         }
         function logoutAdmin() {
             isAdminLoggedIn = false; localStorage.setItem('gkppd_admin_logged', 'false');
